@@ -2,83 +2,69 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Minecraft Power!</title>
+  <title>Prosta Gra</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #fff;
+      background-color: #222;
+      color: white;
+      font-family: Arial, sans-serif;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 8px #000;
+      height: 100vh;
+      flex-direction: column;
     }
 
     button {
-      padding: 20px 50px;
-      font-size: 26px;
-      background-color: #00c853;
-      border: none;
-      border-radius: 15px;
-      color: #fff;
+      padding: 20px 40px;
+      font-size: 24px;
       cursor: pointer;
-      transition: transform 0.3s ease, background-color 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      transition: background-color 0.3s ease;
     }
 
     button:hover {
-      transform: scale(1.1);
-      background-color: #00e676;
+      background-color: #45a049;
     }
 
     #message {
       display: none;
       margin-top: 40px;
-      padding: 40px;
-      background-color: rgba(0, 0, 0, 0.7);
-      border: 2px solid #f50057;
-      border-radius: 20px;
+      padding: 30px;
+      background-color: #333;
+      border: 3px solid #f00;
+      border-radius: 15px;
       max-width: 600px;
-      animation: fadeIn 1s ease-in-out;
+      text-align: center;
+      font-size: 20px;
     }
 
     #message a {
-      color: #64b5f6;
-      font-weight: bold;
+      color: #00f;
       text-decoration: underline;
+      font-weight: bold;
     }
 
     #message a:hover {
-      color: #fff176;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      color: #0ff;
     }
   </style>
 </head>
 <body>
 
-  <h1>Minecraft Rządzi!</h1>
-  <button onclick="showMessage()">Kliknij tutaj, jeśli się zgadzasz!</button>
+  <button onclick="showMessage()">Kliknij we mnie >:)</button>
 
   <div id="message">
-    <h2>🚨 ERROR: MINECRAFT LEPSZY 🚨</h2>
-    <p>To nie żart! To PRAWDZIWA prawda!</p>
-    <p>Subskrybuj <strong>Archilagr88</strong>, bo warto!</p>
+    <p><strong>ERROR</strong></p>
+    <p><strong>MINECRAFT LEPSZY ":{Prawda!!}:"</strong></p>
+    <p>opłca się na serio, klikaj subskrybuj na archilagr88</p>
     <p>
       <a href="https://www.youtube.com/@Archillager88" target="_blank">Kliknij we mnie</a>,
-      a zobaczysz, że to najlepszy kanał na świecie!
+      a zobaczysz tam coś zaskakującego, że to najlepszy kanał.
     </p>
   </div>
 
